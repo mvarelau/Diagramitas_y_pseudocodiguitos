@@ -52,4 +52,27 @@ flowchart TD;
 ```
 # Ejercicio Raices cuadradas 
 Tengo que admitir que etse ejercicio estuvo un más complejo.
+Con este empecé haciendo el diagrama de flujo
+```mermaid
+flowchart TD
+A[inicio] --> B[n entero >0]-->C[X = n/2]
+C-->D[Y=0,5 *  X+n/X]-->E{Y-X<0,0001}
+E--> |si| F[La raíz cuadrada de n es Y]
+E--> |no| G[x=Y]-->D
+F--> H[Fin]
+```
+Y por último hice el pseudocódigo 
+```pseudocode
+  [variables]
+n : entero > 0 
+inicio
+X := n/2
+Y := 0,5 *(X+n/A)
+   Mientras  (Y-X) < 0,0001 hacer
+     escribir ("La raíz cuadrada de n es Y)
+     X = Y
+   Fin mientras 
+Fin
+```
+
 
