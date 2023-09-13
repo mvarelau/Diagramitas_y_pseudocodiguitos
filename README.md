@@ -1,5 +1,5 @@
 # Diagramitas_y_pseudocodiguitos
-He aquí el repo del  RETO#4
+He aquí el repo del  RETO#3
 # Ejercicio Números Primos 
 Lo primero que hice fue escribir los pasos que quería seguir para crear el pseudocódigo: 
 - Inicio 
